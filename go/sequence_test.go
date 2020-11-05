@@ -34,7 +34,7 @@ func TestAnalyze(t *testing.T) {
 		},
 		{
 			Name:     "Single",
-			Input:    []int{},
+			Input:    []int{1},
 			Expected: sequence.Stable,
 		},
 		{
